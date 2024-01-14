@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-500">
+    <main>
+        <div class="container mx-auto mt-[300px] rounded-full border-4 p-6 border-blue-900 bg-slate-300">
+            <h1 class="text-center text-blue-800 text-4xl"> INDOVINA IL NUMERO MISTERIOSO (TRA 10 e 99) </h1>
+            <div class="text-8xl flex justify-center mt-16">
+                <div class="border-4 rounded-full p-4  border-blue-900 text-center" id="number_container">
+                    <span style="filter: blur(18px);" id="random_number">75</span>
+                </div>
+            </div>
+            <div class="flex-col text-center">
+                <p id="clue" class="text-2xl mt-8 text-center mb-4">
+                    Qui comparirà qualche indizio per aiutarti...
+                </p>
+                <input type="number" name="" id="user_guess"
+                    class="w-16 text-5xl align-middle mx-3 rounded-lg text-center">
+                <button class="text-xl px-4 py-2 bg-green-400 rounded-lg align-middle">GUESS</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/main2.js"></script>
+</body>
+
+</html>
